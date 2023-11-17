@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+    <head>
+        <meta content="b0e83987-8316-4db1-804a-8c8354389e3b" name="dtb:uid"/>
+        <meta content="2" name="dtb:depth"/>
+        <meta content="0" name="dtb:totalPageCount"/>
+        <meta content="0" name="dtb:maxPageNumber"/>
+    </head>
+    <docTitle>
+        <text>Hamlet</text>
+    </docTitle>
+    <navMap>
+        <navPoint id="navPoint-1" playOrder="1">
+            <navLabel>
+                <text>Cover</text>
+            </navLabel>
+            <content src="Text/Cover.xhtml"/>
+        </navPoint>
+        <navPoint id="navPoint-2" playOrder="2">
+            <navLabel>
+                <text>Title Page</text>
+            </navLabel>
+            <content src="Text/Title.xhtml"/>
+        </navPoint>
+        <navPoint id="navPoint-3" playOrder="3">
+            <navLabel>
+                <text>ACT I</text>
+            </navLabel>
+            <content src="Text/I.xhtml"/>
+            <navPoint id="navPoint-4" playOrder="4">
+                <navLabel>
+                    <text>SCENE I. Elsinore. A platform before the castle.</text>
+                </navLabel>
+                <content src="Text/I.xhtml#heading_id_3"/>
+            </navPoint>
+            <navPoint id="navPoint-5" playOrder="5">
+                <navLabel>
+                    <text>SCENE II. A room of state in the castle.</text>
+                </navLabel>
+                <content src="Text/I.xhtml#heading_id_4"/>
+            </navPoint>
+            <navPoint id="navPoint-6" playOrder="6">
+                <navLabel>
+                    <text>SCENE III. A room in Polonius' house.</text>
+                </navLabel>
+                <content src="Text/I.xhtml#heading_id_5"/>
+            </navPoint>
+            <navPoint id="navPoint-7" playOrder="7">
+                <navLabel>
+                    <text>SCENE IV. The platform.</text>
+                </navLabel>
+                <content src="Text/I.xhtml#heading_id_6"/>
+            </navPoint>
+            <navPoint id="navPoint-8" playOrder="8">
+                <navLabel>
+                    <text>SCENE V. Another part of the platform.</text>
+                </navLabel>
+                <content src="Text/I.xhtml#heading_id_7"/>
+            </navPoint>
+        </navPoint>
+        <navPoint id="navPoint-9" playOrder="9">
+            <navLabel>
+                <text>ACT II</text>
+            </navLabel>
+            <content src="Text/II.xhtml"/>
+            <navPoint id="navPoint-10" playOrder="10">
+                <navLabel>
+                    <text>SCENE I. A room in POLONIUS' house.</text>
+                </navLabel>
+                <content src="Text/II.xhtml#heading_id_9"/>
+            </navPoint>
+            <navPoint id="navPoint-11" playOrder="11">
+                <navLabel>
+                    <text>SCENE II. A room in the castle.</text>
+                </navLabel>
+                <content src="Text/II.xhtml#heading_id_10"/>
+            </navPoint>
+        </navPoint>
+        <navPoint id="navPoint-12" playOrder="12">
+            <navLabel>
+                <text>ACT III</text>
+            </navLabel>
+            <content src="Text/III.xhtml"/>
+            <navPoint id="navPoint-13" playOrder="13">
+                <navLabel>
+                    <text>SCENE I. A room in the castle.</text>
+                </navLabel>
+                <content src="Text/III.xhtml#heading_id_12"/>
+            </navPoint>
+            <navPoint id="navPoint-14" playOrder="14">
+                <navLabel>
+                    <text>SCENE II. A hall in the castle.</text>
+                </navLabel>
+                <content src="Text/III.xhtml#heading_id_13"/>
+            </navPoint>
+            <navPoint id="navPoint-15" playOrder="15">
+                <navLabel>
+                    <text>SCENE III. A room in the castle.</text>
+                </navLabel>
+                <content src="Text/III.xhtml#heading_id_14"/>
+            </navPoint>
+            <navPoint id="navPoint-16" playOrder="16">
+                <navLabel>
+                    <text>SCENE IV. The Queen's closet.</text>
+                </navLabel>
+                <content src="Text/III.xhtml#heading_id_15"/>
+            </navPoint>
+        </navPoint>
+        <navPoint id="navPoint-17" playOrder="17">
+            <navLabel>
+                <text>ACT IV</text>
+            </navLabel>
+            <content src="Text/IV.xhtml"/>
+            <navPoint id="navPoint-18" playOrder="18">
+                <navLabel>
+                    <text>SCENE I. A room in the castle.</text>
+                </navLabel>
+                <content src="Text/IV.xhtml#heading_id_16"/>
+            </navPoint>
+            <navPoint id="navPoint-19" playOrder="19">
+                <navLabel>
+                    <text>SCENE II. Another room in the castle.</text>
+                </navLabel>
+                <content src="Text/IV.xhtml#heading_id_17"/>
+            </navPoint>
+            <navPoint id="navPoint-20" playOrder="20">
+                <navLabel>
+                    <text>SCENE III. Another room in the castle.</text>
+                </navLabel>
+                <content src="Text/IV.xhtml#heading_id_18"/>
+            </navPoint>
+            <navPoint id="navPoint-21" playOrder="21">
+                <navLabel>
+                    <text>SCENE IV. A plain in Denmark.</text>
+                </navLabel>
+                <content src="Text/IV.xhtml#heading_id_19"/>
+            </navPoint>
+            <navPoint id="navPoint-22" playOrder="22">
+                <navLabel>
+                    <text>SCENE V. Elsinore. A room in the castle.</text>
+                </navLabel>
+                <content src="Text/IV.xhtml#heading_id_20"/>
+            </navPoint>
+            <navPoint id="navPoint-23" playOrder="23">
+                <navLabel>
+                    <text>SCENE VI. Another room in the castle.</text>
+                </navLabel>
+                <content src="Text/IV.xhtml#heading_id_21"/>
+            </navPoint>
+            <navPoint id="navPoint-24" playOrder="24">
+                <navLabel>
+                    <text>SCENE VII. Another room in the castle.</text>
+                </navLabel>
+                <content src="Text/IV.xhtml#heading_id_22"/>
+            </navPoint>
+        </navPoint>
+        <navPoint id="navPoint-25" playOrder="25">
+            <navLabel>
+                <text>ACT V</text>
+            </navLabel>
+            <content src="Text/V.xhtml"/>
+            <navPoint id="navPoint-26" playOrder="26">
+                <navLabel>
+                    <text>SCENE I. A churchyard.</text>
+                </navLabel>
+                <content src="Text/V.xhtml#heading_id_24"/>
+            </navPoint>
+            <navPoint id="navPoint-27" playOrder="27">
+                <navLabel>
+                    <text>SCENE II. A hall in the castle.</text>
+                </navLabel>
+                <content src="Text/V.xhtml#heading_id_25"/>
+            </navPoint>
+        </navPoint>
+        <navPoint id="navPoint-28" playOrder="28">
+            <navLabel>
+                <text>Also by Bookbyte Digital</text>
+            </navLabel>
+            <content src="Text/Also_by.xhtml"/>
+        </navPoint>
+        <navPoint id="navPoint-29" playOrder="29">
+            <navLabel>
+                <text>Get Published with Bookbyte Digital</text>
+            </navLabel>
+            <content src="Text/Get_Published.xhtml"/>
+        </navPoint>
+    </navMap>
+</ncx>

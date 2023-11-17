@@ -1,0 +1,465 @@
+@font-face {
+font-family: "Times New Roman";
+font-style: normal;
+font-weight: bold;
+src:url(Fonts/TIMESBD.TTF);
+}
+@font-face {
+font-family: "Times New Roman";
+font-style: normal;
+font-weight: normal;
+src:url(Fonts/TIMES.TTF);
+}
+div.picture {
+	width: 50% !important;
+	float: center;
+	margin: 0.5em 0 0 !important;
+	line-height: 2em !important;
+}
+div.smallpic {
+	width: 30% !important;
+	float: left;
+	margin: 0.5em 0.5em 0.5em !important;
+	line-height: 2em !important;
+}
+div.rsmallpic {
+	width: 30% !important;
+	float: right;
+	margin: 0.5em 0.5em 0.5em !important;
+	line-height: 2em !important;
+}
+div.rpicture {
+	width: 50% !important;
+	float: right;
+	margin: 0.5em 0 0 !important;
+	line-height: 2em !important;
+}
+div.inline {
+	page-break-inside: avoid;
+	margin: 0 50% 0 50%;
+	float: center;
+	line-height: 2em !important;
+	text-align: center;
+	text-indent: 0;
+	clear: both;
+}
+div.inline img {
+	max-height: 100% !important;
+	max-width: 100%;
+	width: 50% !important;
+}
+h1 {
+	font-family: "Times New Roman";
+	line-height: 1.56em;
+	font-size: 1.33em;
+	margin-bottom: 0.19em;
+	margin-top: 0.19em;
+	text-indent: 0.00em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: center;
+	font-weight: bold;
+	font-style: normal;
+	color: rgb(0,0,0);
+	display: none;
+}
+h2 {
+	font-family: "Times New Roman";
+	line-height: 1.56em;
+	font-size: 1.33em;
+	margin-bottom: 0.19em;
+	margin-top: 2.5em;
+	text-indent: 0.00em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: center;
+	font-weight: bold;
+	font-style: normal;
+	color: rgb(0,0,0);
+	font-variant: small-caps;
+}
+p.chtitle {
+	font-family: "Times New Roman";
+	line-height: 1.56em;
+	font-size: 1.33em;
+	margin-bottom: 0.19em;
+	margin-top: 0.19em;
+	text-indent: 0.00em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: center;
+	font-weight: bold;
+	font-style: normal;
+	color: rgb(0,0,0);
+}
+p.body {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.00em;
+	margin-bottom: 0.25em;
+	margin-top: 0.25em;
+	text-indent: 2.83em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(0,0,0);
+}
+p.stage {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.00em;
+	margin-bottom: 0.70em;
+	margin-top: 0.70em;
+	text-indent: 0.00em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: center;
+	font-weight: normal;
+	font-style: italic;
+	color: rgb(0,0,0);
+}
+p.para1-2 {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.00em;
+	margin-bottom: 0.25em;
+	margin-top: 2.00em;
+	text-indent: 0.00em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(0,0,0);
+}
+p.para1 {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.00em;
+	margin-bottom: 0.25em;
+	margin-top: 4.00em;
+	text-indent: 0.00em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(0,0,0);
+}
+p.para1:first-letter {
+    font-family: "Times New Roman";
+    font-weight: regular;
+    font-style: normal;
+    float: left;
+    font-size: 3.5em;
+    margin-top: 0.25em;
+    margin-right:.05em;
+}
+p.para1:first-line {
+    font-variant: small-caps;
+}
+p.number {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 3.5em;
+	margin-bottom: 0.25em;
+	margin-top: 2.00em;
+	text-indent: 0.00em;
+	margin-right: 0.05em;
+	margin-left: 0.00em;
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(0,0,0);
+}
+p.number:first-letter {
+    font-family: "Times New Roman";
+    font-weight: regular;
+    font-style: normal;
+    float: left;
+    font-size: 1.0em;
+    margin-top: 0.25em;
+    margin-right:.05em;
+}
+p.number:second-letter {
+    font-family: "Times New Roman";
+    font-weight: regular;
+    font-style: normal;
+    float: left;
+    font-size: 1.0em;
+    margin-top: 0.25em;
+    margin-right:.05em;
+}
+p.date {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.00em;
+	margin-bottom: 0.25em;
+	margin-top: 0.25em;
+	text-indent: 0.00em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(0,0,0);
+    font-variant: small-caps;
+}
+p.lettend2 {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.00em;
+	margin-bottom: 0.25em;
+	margin-top: 0.25em;
+	text-indent: 7.83em;
+	margin-right: 2.83em;
+	margin-left: 0.00em;
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(0,0,0);
+}
+p.alsohead {
+	font-family: "Times New Roman";
+	line-height: 1.56em;
+	font-size: 1.33em;
+	margin-bottom: 0.19em;
+	margin-top: 0.19em;
+	text-indent: 0.00em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: center;
+	font-weight: bold;
+	font-style: normal;
+	color: rgb(0,0,0);
+}
+p.centend {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.00em;
+	margin-bottom: 0.25em;
+	margin-top: 0.25em;
+	text-indent: 0.00em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: center;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(0,0,0);
+}
+p.bind {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.00em;
+	margin-bottom: 1.00em;
+	margin-top: 0.25em;
+	text-indent: 2.83em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(0,0,0);
+}
+p.aind-left {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.00em;
+	margin-bottom: 0.25em;
+	margin-top: 0.67em;
+	text-indent: 0.00em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(0,0,0);
+}
+p.ind {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.00em;
+	margin-bottom: 0.25em;
+	margin-top: 1.00em;
+	text-indent: 0.00em;
+	margin-right: 2.83em;
+	margin-left: 2.83em;
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(0,0,0);
+}
+p.lettend {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.00em;
+	margin-bottom: 0.25em;
+	margin-top: 0.25em;
+	text-indent: 5.83em;
+	margin-right: 2.83em;
+	margin-left: 0.00em;
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(0,0,0);
+}
+p.aind {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.00em;
+	margin-bottom: 0.25em;
+	margin-top: 1.00em;
+	text-indent: 2.83em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(0,0,0);
+}
+p.left {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.00em;
+	margin-bottom: 0.25em;
+	margin-top: 0.25em;
+	text-indent: 0.00em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(0,0,0);
+}
+p.outdent {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.00em;
+	margin-bottom: 0.25em;
+	margin-top: 0.25em;
+	text-indent: -2.83em;
+	margin-right: 2.49em;
+	margin-left: 6.49em;
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(0,0,0);
+	white-space: nowrap;
+}
+p.ind2 {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.00em;
+	margin-bottom: 0.7em;
+	margin-top: 0.7em;
+	text-indent: 0.00em;
+	margin-right: 5.40em;
+	margin-left: 2.83em;
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(0,0,0);
+}
+p.argument {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 90%;
+	margin-bottom: 0.25em;
+	margin-top: 0.25em;
+	text-indent: 0em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: left;
+	font-weight: normal;
+	font-style: italic;
+	color: rgb(0,0,0);
+}
+span.generated-style {
+}
+p.ind1 {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.00em;
+	margin-bottom: 0.25em;
+	margin-top: 2.50em;
+	text-indent: 0.00em;
+	margin-right: 2.83em;
+	margin-left: 2.83em;
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(0,0,0);
+}
+p.ind1:first-letter {
+    font-family: "Times New Roman";
+    font-weight: regular;
+    font-style: normal;
+    float: left;
+    font-size: 3.5em;
+    margin-top: 0.25em;
+    margin-right:.05em;
+}
+p.ind1:first-line {
+    font-variant: small-caps;
+}
+span.ln {
+	font-size: 75%;
+	position: absolute;
+    top: auto;
+    right: 20%;
+    padding-left: 3em;
+    text-align: right
+}
+span.dropcap {
+	font-weight: normal;
+	font-style: italic;
+	font-size: 2.00em;
+}
+p.verse {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.00em;
+	margin-bottom: 0.2em;
+	margin-top: 0.2em;
+	text-indent: -0.45em;
+	margin-right: 0.00em;
+	margin-left: 25%;
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(0,0,0);
+}
+p.speaker {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.00em;
+	margin-bottom: 0.00em;
+	margin-top: 0.0em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: right;
+	font-weight: bold;
+	font-style: normal;
+	color: rgb(0,0,0);
+	font-variant: small-caps;
+}
+div.speaker {
+	width: 20% !important;
+	float: left;
+}
+p.buylink {
+	font-family: "Times New Roman";
+	line-height: 1.17em;
+	font-size: 1.20em;
+	margin-bottom: 1.00em;
+	margin-top: 1.00em;
+	text-indent: 0.00em;
+	margin-right: 0.00em;
+	margin-left: 0.00em;
+	text-align: center;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(0,0,0);
+}

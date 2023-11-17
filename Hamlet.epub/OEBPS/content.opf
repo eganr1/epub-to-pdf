@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="BookID" opf:scheme="UUID">urn:uuid:b0e83987-8316-4db1-804a-8c8354389e3b</dc:identifier>
+    <dc:title>Hamlet</dc:title>
+    <dc:identifier opf:scheme="ISBN">978-1-61306-042-1</dc:identifier>
+    <dc:subject>Tragedy</dc:subject>
+    <dc:subject>revenge</dc:subject>
+    <dc:subject>ghost</dc:subject>
+    <dc:subject>indecision</dc:subject>
+    <dc:subject>Denmark</dc:subject>
+    <dc:subject>family</dc:subject>
+    <dc:subject>murder</dc:subject>
+    <dc:subject>vengeance</dc:subject>
+    <dc:subject>destiny</dc:subject>
+    <dc:subject>To be or not to be</dc:subject>
+    <dc:subject>soliliquoy</dc:subject>
+    <dc:subject>wait</dc:subject>
+    <dc:creator opf:role="aut">William Shakespeare</dc:creator>
+    <dc:publisher>Bookbyte Digital</dc:publisher>
+    <dc:language>en</dc:language>
+    <meta name="cover" content="hamlet-cover.jpg" />
+    <meta content="0.5.3" name="Sigil version" />
+  </metadata>
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+    <item href="Images/Act1.jpg" id="Act1.jpg" media-type="image/jpeg" />
+    <item href="Images/Act2.jpg" id="Act2.jpg" media-type="image/jpeg" />
+    <item href="Images/Act3.jpg" id="Act3.jpg" media-type="image/jpeg" />
+    <item href="Images/Act4.jpg" id="Act4.jpg" media-type="image/jpeg" />
+    <item href="Images/Act5.jpg" id="Act5.jpg" media-type="image/jpeg" />
+    <item href="Images/Hamlet_title.jpg" id="Hamlet_title.jpg" media-type="image/jpeg" />
+    <item href="Images/PublisherPage.jpg" id="PublisherPage.jpg" media-type="image/jpeg" />
+    <item href="Images/bb_logo_with_tagline.jpg" id="bb_logo_with_tagline.jpg" media-type="image/jpeg" />
+    <item href="Images/cowsmall.jpg" id="cowsmall.jpg" media-type="image/jpeg" />
+    <item href="Images/expsmall.jpg" id="expsmall.jpg" media-type="image/jpeg" />
+    <item href="Images/hamlet-cover.jpg" id="hamlet-cover.jpg" media-type="image/jpeg" />
+    <item href="Images/prezsmall.jpg" id="prezsmall.jpg" media-type="image/jpeg" />
+    <item href="Styles/template.css" id="template.css" media-type="text/css" />
+    <item href="Text/Also_by.xhtml" id="Also_by.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/ChambersAd.xhtml" id="ChambersAd.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Copyright.xhtml" id="Copyright.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Cover.xhtml" id="Cover.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Get_Published.xhtml" id="Get_Published.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/I.xhtml" id="I.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/II.xhtml" id="II.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/III.xhtml" id="III.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/IV.xhtml" id="IV.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/PubPage.xhtml" id="PubPage.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0001.xhtml" id="Section0001.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0002.xhtml" id="Section0002.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0003.xhtml" id="Section0003.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0004.xhtml" id="Section0004.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Section0005.xhtml" id="Section0005.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/Title.xhtml" id="Title.xhtml" media-type="application/xhtml+xml" />
+    <item href="Text/V.xhtml" id="V.xhtml" media-type="application/xhtml+xml" />
+    <item href="Images/expcover.jpg" id="expcover.jpg" media-type="image/jpeg" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="Cover.xhtml" />
+    <itemref idref="PubPage.xhtml" />
+    <itemref idref="ChambersAd.xhtml" />
+    <itemref idref="Copyright.xhtml" />
+    <itemref idref="Title.xhtml" />
+    <itemref idref="Section0001.xhtml" />
+    <itemref idref="I.xhtml" />
+    <itemref idref="Section0002.xhtml" />
+    <itemref idref="II.xhtml" />
+    <itemref idref="Section0003.xhtml" />
+    <itemref idref="III.xhtml" />
+    <itemref idref="Section0004.xhtml" />
+    <itemref idref="IV.xhtml" />
+    <itemref idref="Section0005.xhtml" />
+    <itemref idref="V.xhtml" />
+    <itemref idref="Also_by.xhtml" />
+    <itemref idref="Get_Published.xhtml" />
+  </spine>
+  <guide>
+    <reference href="Text/Cover.xhtml" title="Cover" type="cover" />
+  </guide>
+</package>
